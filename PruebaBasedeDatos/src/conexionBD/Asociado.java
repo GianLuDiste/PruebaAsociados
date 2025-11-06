@@ -14,9 +14,4 @@ public class Asociado extends Persona {
 		return "Asociado [solicitudes=" + solicitudes + ", nombre=" + nombre + ", apellido=" + apellido + ", dni=" + dni
 				+ ", calle=" + calle + ", numero=" + numero + ", telefono=" + telefono + ", ciudad=" + ciudad + "]";
 	}
-	
-	
-	
-	
-	
 }

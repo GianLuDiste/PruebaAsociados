@@ -11,6 +11,9 @@ public class Prueba {
 		bd.conectar();
 		//cuando se crea la ventana hay que llamar a getAsociados para mostralos en una lista.
 		//cada vez que se hace algo, (baja, alta) volver a llamar a getAsociados para actualizar la lista
+		
+		bd.inicializacion();
+		
 		ArrayList<Asociado> listado = bd.getAsociados();
 		
 		Iterator it = listado.iterator();
@@ -20,14 +23,14 @@ public class Prueba {
 			System.out.println(a);
 		}
 		
-		/*
+		
 		try {
-			bd.altaBD(new Asociado("Cristina", "Pepi", "16858124", "Calle 100", 156, "223456789", "Mechongue", 0, 'A'));
+			bd.altaBD(new Asociado("Guille", "Lazurri", "16858124", "Calle 100", 156, "223456789", "Mechongue", 0));
 		} catch (AsociadoExistenteException e) {
 			System.out.println(e.getA() + "No existia");
 			e.printStackTrace();
 		}
-		*/
+		
 		
 		System.out.println("*************************");
 		
