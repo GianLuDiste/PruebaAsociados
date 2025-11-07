@@ -40,7 +40,7 @@ CREATE TABLE `asociados` (
 
 LOCK TABLES `asociados` WRITE;
 /*!40000 ALTER TABLE `asociados` DISABLE KEYS */;
-INSERT INTO `asociados` VALUES ('16858124','Guille','Lazurri','Calle 100',156,'223456789','Mechongue'),('45265789','Valentino','Giordano','San Juan',2315,'2236851429','Mar del Plata'),('46025175','Agustin','Proia','Juan b Justo',982,'2236841257','Mar del Plata'),('46054123','Santiago','Yanosky','Matheu',5102,'2236556561','Mar del Plata'),('47015236','Juan','Aldana','Ratery',5013,'2236884563','Mar del Plata'),('47256279','Gian Luca','Distefano','Champagnat',6150,'2235376209','Mar del Plata');
+INSERT INTO `asociados` VALUES ('16858124','Guille','Lazurri','Calle 100',156,'223456789','Mechongue'),('45265789','Valentino','Giordano','San Juan',2315,'2236851429','Mar del Plata'),('46025175','Agustin','Proia','Juan b Justo',982,'2236841257','Mar del Plata'),('46054123','Santiago','Yanosky','Matheu',5102,'2236556561','Mar del Plata'),('47015236','Juan','Aldana','Ratery',5013,'2236884563','Mar del Plata'),('47256279','Gian Luca','Distefano','Constitucion',6150,'2235376209','Mar del Plata');
 /*!40000 ALTER TABLE `asociados` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-11-06 16:30:42
+-- Dump completed on 2025-11-06 21:01:10
